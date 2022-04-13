@@ -1,13 +1,11 @@
-import { Button } from './components/Button'
+
+// import { Home } from "./pages/Home";
+// import { NewRoom } from "./pages/NewRoom";
+import { AppRoutes } from './Routes';
 
 function App() {
   return (
-    <div>
-      <Button />
-      <Button />
-      <Button />
-    </div>
-    
+  <AppRoutes />    
   );
 }
 export default App;
